@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR</title>
+    <style>
+        body{
+        font-family: Hobo STD; 
+        font-weight: bold;
+        background:#206A5D; 
+        }
+        .nama{
+            font-size: 40px;
+            padding: 20px; 
+            background: #FFCC29; 
+            border: 5px solid black; 
+            border-radius: 30px; 
+            margin: 20px 15px 0px 15px; 
+        }
+        .menu{
+            float: right;
+        }
+        .menu a{
+            padding-right: 30px; 
+            text-decoration: none; 
+            font-size: 25px; 
+            color: black;
+            display: block;
+            line-height: 50px;
+        }
+        .menu a:hover{
+            color: antiquewhite; 
+        }
+        .judul{
+            background: #F58634; 
+            border: 5px solid black; 
+            border-radius: 30px; 
+            margin: 20px 100px 10px 100px; 
+        }
+        .judul h1{
+            text-align: center; 
+            font-size: 28px; 
+        }
+        .formulir{
+            background: #81B214; 
+            border: 5px solid black; 
+            border-radius: 30px; 
+            margin: 20px 200px 20px 200px; 
+        }
+        .formulir h1{
+            text-align: center; 
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nama">
+                FORM.
+                <div class="menu">
+                    <table>
+                        <tr>
+                            <td><a href="halaman1.html">BERANDA</a></td>
+                            <td><a href="halaman2.html">PULAU</a></td>
+                            <td><a href="profile.html">PROFILE</a></td>
+                            <td><a href="formulir.html">FORMULIR</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </header>
+        <article>
+            <div class="judul">
+                <h1>PENDATAAN SISWA</h1>
+            </div>
+            <div class="formulir">
+                <form>
+                    <h1>ISI DENGAN BENAR</h1>
+                    <table align="center" cellpadding="8" cellspacing="8">
+                        <tr>
+                            <td>NIS</td>
+                            <td><input type="text" name="NIS"></td>
+                        </tr>
+                        <tr>
+                            <td>NAMA</td>
+                            <td><input type="text" name="NAMA"></td>
+                        </tr>
+                        <tr>
+                            <td>TEMPAT LAHIR</td>
+                            <td><input type="text" name="TEMPAT LAHIR"></td>
+                        </tr>
+                        <tr>
+                            <td>TANGGAL LAHIR</td>
+                            <td><input type="text" name="TANGGAL LAHIR"></td>
+                        </tr>
+                        <tr>
+                            <td>ALAMAT</td>
+                            <td><input type="text" name="ALAMAT"></td>
+                        </tr>
+                        <tr>
+                            <td>JENIS KELAMIN</td>
+                            <td>
+                                <input type="radio" name="JENIS KELAMIN">L
+                                <input type="radio" name="JENIS KELAMIN">P
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JURUSAN</td>
+                            <td>
+                                <select>
+                                    <option value="--">--</option>
+                                    <option value="TKJ">TEKNIK KOMPUTER JARINGAN</option>
+                                    <option value="TJA">TEKNIK JARINGAN AKSES</option>
+                                    <option value="TRANSMISI">TRANSMISI</option>
+                                    <option value="RPL">REKAYASA PERANGKAT LUNAK</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="SIMPAN"></td>
+                            <td><input type="reset" value="Batal"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
